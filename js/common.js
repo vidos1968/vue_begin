@@ -86,3 +86,24 @@ groceryList:[
 
 
 }) 
+
+
+var example = new Vue({
+
+el:'#example',
+data:{
+
+    message:'Привет!'
+},
+
+computed:{
+
+reversedMessage:function(){
+
+    return this.message.split('').reverse('').join('')
+}
+
+
+}
+
+})
