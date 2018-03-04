@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+</head>
+<body>
+    
+<div id="app2">
+<span v-bind:title='message'>
+    Наведи на меня курсор на несколько секунд, чтобы увидеть изменение title
+
+
+</span>
+
+
+</div>
+
+<div id="app3">
+<span v-if = 'seen'>Пока меня видно
+
+</span>
+
+</div>
+
+<div id="app4">
+<ul>
+<li v-for = 'todo in todos'>
+
+    {{todo.text}}
+
+
+</li>
+
+</ul>
+</div>
+
+
+<div id="app5">
+<p>{{message}}</p>
+
+<button v-on:click = 'reverseMessage'>Перевернуть сообщение</button>
+
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <title>Document</title>
+    <script src="js/common.js"></script>
+</body>
+</html>
