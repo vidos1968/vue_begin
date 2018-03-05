@@ -107,3 +107,13 @@ reversedMessage:function(){
 }
 
 })
+
+var app8 = new Vue({
+el:'#app8',
+data:{
+    activeColor:'green',
+    
+}
+
+
+})
